@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login Page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<style type="text/css">
+		body, html{
+			height: 100%;
+			width: 100%;
+			margin: 0;
+		}
+		body{
+			background-color: black;
+		}
+		.form{
+			margin: auto;
+		}
+		.social-btn{
+			text-align: center;
+			margin-top: 40px;
+		}
+		#github-btn{
+			background-color: #444444;
+			color: white;
+	  		font-size: 30px;
+	  		margin-right: 30px;
+	  		text-align: center;
+	  		border-radius: 50%;
+		}
+		#facebook-btn{
+			color: white;
+			background-color: #3B5998;
+			border-radius: 50%;
+			margin-right: 30px;
+			font-size: 30px;
+		}
+		#google-btn{
+			color: white;
+			background-color: #DD4B39;
+			border-radius: 50%;
+			font-size: 30px;
+		}
+		.form{
+			background-color: white;
+			border-radius: 2%;
+			width: 400px;
+			padding: 10px;
+		}
+		form input{
+			margin-bottom: 10px;
+			background-color: #e6e6e6;
+			color: #666666;
+			border: none;
+			padding: 10px;
+			width: 80%;
+		}
+		form button{
+			background: #ec8b33;
+			border: none;
+			border-radius: 10px;
+			margin-top: 10px;
+			padding: 5px 30px;
+		}
+
+		.create_account{
+			text-align: center;
+			margin: 50px 0 30px 0;
+		}
+	</style>
+	<body>
+		<div class="form">
+			<div>
+				<h3>Login with</h1>
+				<div class="social-btn"> 		
+					<a href="#" class="btn btn-social btn-github" id="github-btn">
+						<span class="fa fa-github"></span>
+					</a>
+					<a href="#" class="btn btn-social btn-facebook" id="facebook-btn">
+						<span class="fa fa-facebook"></span>
+					</a>
+					<a href="#" class="btn btn-social btn-google" id="google-btn">
+						<span class="fa fa-google"></span>
+					</a>
+				</div>
+			</div>
+			<div style="text-align: center; margin-top: 40px;">
+				OR
+			</div>
+			<div style="margin-top: 20px; text-align:center;">
+				<form>
+					<input type="text" name="username" placeholder="Username"><br>
+					<input type="text" name="password" placeholder="Password"><br>
+					<button type="submit">Login</button>
+				</form>
+			</div>
+			<div class="create_account">
+				<a href="#">Create an account</a>
+			</div>
+		</div>
+	</body>
+</html>	
