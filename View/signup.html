@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign-Up Page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	</head>
+	<style type="text/css">
+		body{
+			background-color: #7fc2c2;
+		}
+		.form{
+			background-color: white;
+			margin: auto;
+	     	width: 450px;
+	     	margin-top: 100px;
+	     	padding: 10px;
+		}
+		form input{
+			margin-bottom: 10px;
+			background-color: #e6e6e6;
+			color: #666666;
+			border: none;
+			padding: 10px;
+		}
+		form button{
+			text-align: center;
+			background: #ec3380;
+			color: white;
+			border: none;
+			border-radius: 10px;
+			margin-top: 10px;
+			padding: 5px 30px;
+		}
+	</style>
+	<body>
+		 <div class="form">
+		 	<div>
+		 		<h3>Sign Up</h3><br>
+		 		<p>Please enter details to create an new account</p>
+		 	</div>
+		 	<div>
+		 		<form>
+		 			<input type="text" name="firstName" placeholder="First Name" required="">
+		 			<input type="text" name="lastName" placeholder="Last Name" required=""><br>
+		 			<input type="email" name="email" placeholder="Email" style="width: 93%;" required=""><br>
+		 			<input type="password" placeholder="Password" style="width: 93%;" required=""><br>
+		 			<input type="password" placeholder="Confirm password" style="width: 93%;" required=""><br>
+		 			<input type="radio" name="agreement" value="1">I accept the<a href="#"> Terms</a> &<a href="#" required=""> Privacy Policy</a><br>
+		 			<button type="submit">Sign Up</button>
+		 		</form>
+		 		<div style="margin-top: 20px; text-align: center;">
+		 			<p>Already have an account <a href="#">Login here</a></p>
+		 		</div>
+		 	</div>
+		 </div>
+	</body>
+</html>
