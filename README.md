@@ -6,3 +6,8 @@ This web-project is e-commerce website with 3 pages:
   1. Home page
   2. Login page
   3. Signup page
+
+Built with:
+  HTML
+  CSS
+  Javascript
